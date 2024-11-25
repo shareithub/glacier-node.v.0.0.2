@@ -48,6 +48,6 @@ echo "Running the new glacier-verifier container..."
 sudo docker run -d -e PRIVATE_KEY="$PRIVATE_KEY" --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.2
 
 # Memberikan izin eksekusi pada skrip jika diperlukan
-echo "Memberikan izin eksekusi pada skrip run_glacier_verifier_with_pull.bash..."
+echo "Memberikan izin eksekusi pada script main.bash..."
 chmod +x "$0"
 echo "Izin eksekusi telah diberikan pada skrip: $0"
